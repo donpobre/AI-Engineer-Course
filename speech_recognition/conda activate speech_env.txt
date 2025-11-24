@@ -1,0 +1,49 @@
+conda create -n speech_env python=3.9
+conda activate speech_env
+
+conda install ipykernel
+
+python -m ipykernel install --user --name=speech_env --display-name="speech_env"
+
+
+pip install librosa
+pip install SpeechRecognition
+pip install jiwer
+pip install matplotlib
+
+pip install gtts
+
+Visit https://pytorch.org/get-started/locally/
+select Stable version -> Windows, Pip, Python, CUDA
+
+Then copy the code:
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+
+Go to command prompt: cmd
+Then paste: pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+
+Visit https://chocolatey.org/
+Click Install button
+
+1. Choose How to Install Chocolatey:
+Individual
+
+2. Now run the following command -> copy:
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+3. Windows Powershell run as Administrator
+4. Paste the copied text into your shell and press Enter.
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+
+5. choco install ffmpeg
+6. choose: Y
+
+Back to anaconda prompt
+pip install -U openai-whisper
+
+Check if install correctly:
+pip show openai-whisper
+
+
+http://localhost:8889/notebooks/speech_recognition_python.ipynb
