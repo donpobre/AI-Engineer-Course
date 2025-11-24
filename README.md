@@ -1,4 +1,5 @@
 AI Engineering Course — Practice Exercises
+
 This repository contains hands-on exercises completed as part of the Complete AI Engineer Training, focusing on:
 
 - Python Programming
