@@ -20,14 +20,11 @@ This module explores the fundamentals of audio processing, speech-to-text, and t
 
 📂 Files Included
 
-- Setting Up Packages for Speech Recognition.pdf
-  Step-by-step package installation and environment setup.
+- Setting Up Packages for Speech Recognition.pdf, Step-by-step package installation and environment setup.
 
-- speech_recognition_python.ipynb
-  Jupyter Notebook containing all code implementations for the exercises.
+- speech_recognition_python.ipynb, Jupyter Notebook containing all code implementations for the exercises.
 
-- conda activate speech_env.txt
-  Environment creation and required packages list.
+- conda activate speech_env.txt, Environment creation and required packages list.
 
 🧪 Exercise Overview
 1. Loading and Visualizing Audio
