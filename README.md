@@ -10,16 +10,18 @@ This repository contains hands-on exercises completed as part of the Complete AI
 - Hugging Face
 - API Integrations
 - Speech & Audio Processing
+  
 All exercises use Python with various AI/ML libraries.
 
 📌 1. Speech Recognition
 Folder: speech_recognition
+
 This module explores the fundamentals of audio processing, speech-to-text, and text-to-speech in Python.
 
 📂 Files Included
 
 - Setting Up Packages for Speech Recognition.pdf
- Step-by-step package installation and environment setup.
+  Step-by-step package installation and environment setup.
 
 - speech_recognition_python.ipynb
   Jupyter Notebook containing all code implementations for the exercises.
